@@ -12,7 +12,7 @@ import { Label } from "@/app/components/ui/label"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/app/components/ui/table"
 
 export default function Dashboard() {
-  const [user, setUser] = useState<User | null>(null)
+  const [user, setUser] = useState<User | null>(null) 
   const router = useRouter()
 
   useEffect(() => {
